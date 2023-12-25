@@ -67,12 +67,9 @@ ul {
   display: flex;
   align-items: center;
   margin-right: auto;
-  position: relative;
-  color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav::after {
+.headerlink::after {
   content: "";
   position: absolute;
   left: 0;
@@ -95,6 +92,13 @@ ul {
   position: relative;
   color: #404bbf;
 }
+
+.headerlink {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-logo-accent {
   color: #2e2f42;
   font-size: 18px;
