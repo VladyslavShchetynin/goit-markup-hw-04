@@ -32,6 +32,18 @@ ul {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+
+  /* Feauters New */
+}
+
+.feauters-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /* Header section */
@@ -150,6 +162,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* text-decoration: none; */
 }
 .contacts-link:hover {
@@ -176,6 +189,8 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(./images/hero/herobg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -205,6 +220,7 @@ img {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button-text {
   color: #ffffff;
