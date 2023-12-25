@@ -69,7 +69,7 @@ ul {
   margin-right: auto;
 }
 
-.headerlink::after {
+.header-logo-link::after {
   content: "";
   position: absolute;
   left: 0;
